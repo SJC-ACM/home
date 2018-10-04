@@ -1,0 +1,133 @@
+/* For mobile devices: */
+/* ------------------- */
+/* */
+#navbar {
+    background-color: #EBB61B;
+    border-bottom: 8px solid #DAA919;
+    width: 100%;
+}
+#navbar ul {}
+#navbar ul a {}
+#navbar ul a:hover {}
+#navbar ul li#bars {
+    display: block;
+}
+#navbar ul li {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: #113675;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#navbar ul li i {}
+
+#nav-logos {
+    float: left;
+    display: none;
+}
+#nav-logo-sjc {
+    background-image: url("img/sjc-logo.png");
+    background-size: 100%;
+    display: inline-block;
+}
+#nav-logo-acm {}
+@media only screen and (min-width: 667px) {
+    /* For iPhone 6+++ landscape mode: */
+    #navbar {}
+    #navbar ul {}
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {}
+    #navbar ul li i {}
+
+    #nav-logos {}
+    #nav-logo-sjc {}
+    #nav-logo-acm {}
+}
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    #navbar {}
+    #navbar ul {}
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {}
+    #navbar ul li i {}
+
+    #nav-logos {}
+    #nav-logo-sjc {}
+    #nav-logo-acm {}
+}
+@media only screen and (min-width: 1024px) {
+    /* iPad Pros:  */
+    #navbar {
+        height: 60px;
+    }
+    #navbar ul {
+        margin-left: 200px;
+        padding-top: 22px;
+    }
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {
+        margin-right: 40px;
+    }
+    #navbar ul li i {}
+
+    #nav-logos {
+        width: 200px;
+        height: 60px;
+    }
+    #nav-logo-sjc {
+        height: 100px;
+        width: 100px;
+        margin-top: -11px;
+    }
+    #nav-logo-acm {}
+}
+@media only screen and (min-width: 1366px) {
+    /* Desktop screens and iPad pro sideways: */
+    #navbar {}
+    #navbar ul {}
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {}
+    #navbar ul li i {}
+
+    #nav-logos {}
+    #nav-logo-sjc {}
+    #nav-logo-acm {}
+}
+@media only screen and (min-width: 1500px) {
+    /* Desktop screens 1500px - 1740px : */
+    #navbar {}
+    #navbar ul {}
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {}
+    #navbar ul li i {}
+
+    #nav-logos {}
+    #nav-logo-sjc {}
+    #nav-logo-acm {}
+}
+@media only screen and (min-width: 1740px) {
+    /* Desktop screens: */
+    #navbar {}
+    #navbar ul {}
+    #navbar ul a {}
+    #navbar ul a:hover {}
+    #navbar ul li#bars {}
+    #navbar ul li {}
+    #navbar ul li i {}
+
+    #nav-logos {}
+    #nav-logo-sjc {}
+    #nav-logo-acm {}
+}
