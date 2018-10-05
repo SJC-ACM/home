@@ -59,16 +59,17 @@
     background: transparent;
     width: 100%;
 }
-#about-us {
+#quote {
     background-color: #DAA919;
 }
-#about-us p {
+#quote p {
     color: white;
     font-size: 72px;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+#about-us {}
 @media only screen and (min-width: 1366px) {
     /* Desktop screens and iPad pro sideways: */
     #navbar ul {
