@@ -1,133 +1,95 @@
-/* For mobile devices: */
-/* ------------------- */
-/* */
 #navbar {
     background-color: #EBB61B;
     border-bottom: 8px solid #DAA919;
     width: 100%;
+    height: 60px;
+    position: fixed;
 }
-#navbar ul {}
-#navbar ul a {}
-#navbar ul a:hover {}
-#navbar ul li#bars {
-    display: block;
+#navbar ul {
+    margin-left: 200px;
+    padding-top: 22px;
+}
+#navbar ul a {
+    color: #113675;
+}
+#navbar ul a:hover {
+    color: white;
 }
 #navbar ul li {
-    display: none;
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 2px;
     padding-bottom: 10px;
     margin-left: 10px;
-    color: #113675;
-    text-transform: uppercase;
     font-weight: bold;
+    margin-right: 40px;
+    text-transform: uppercase;
 }
-#navbar ul li i {}
 
 #nav-logos {
     float: left;
-    display: none;
+    display: inline-block;
+    width: 300px;
+    height: 60px;
 }
 #nav-logo-sjc {
     background-image: url("img/sjc-logo.png");
     background-size: 100%;
     display: inline-block;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: -11px;
 }
-#nav-logo-acm {}
-@media only screen and (min-width: 667px) {
-    /* For iPhone 6+++ landscape mode: */
-    #navbar {}
-    #navbar ul {}
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {}
-    #navbar ul li i {}
-
-    #nav-logos {}
-    #nav-logo-sjc {}
-    #nav-logo-acm {}
+#nav-logo-acm {
+    background-image: url("img/acm-logo.png");
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 230px;
+    margin-top: 5px;
 }
-@media only screen and (min-width: 768px) {
-    /* For tablets: */
-    #navbar {}
-    #navbar ul {}
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {}
-    #navbar ul li i {}
 
-    #nav-logos {}
-    #nav-logo-sjc {}
-    #nav-logo-acm {}
+/** /
+  *
+  * Body:
+  *
+/**/
+#club-action {
+    height: 1400px;
+    background: transparent;
+    width: 100%;
 }
-@media only screen and (min-width: 1024px) {
-    /* iPad Pros:  */
-    #navbar {
-        height: 60px;
-    }
-    #navbar ul {
-        margin-left: 200px;
-        padding-top: 22px;
-    }
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {
-        margin-right: 40px;
-    }
-    #navbar ul li i {}
-
-    #nav-logos {
-        width: 200px;
-        height: 60px;
-    }
-    #nav-logo-sjc {
-        height: 100px;
-        width: 100px;
-        margin-top: -11px;
-    }
-    #nav-logo-acm {}
+#about-us {
+    background-color: #DAA919;
+}
+#about-us p {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 @media only screen and (min-width: 1366px) {
     /* Desktop screens and iPad pro sideways: */
-    #navbar {}
-    #navbar ul {}
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {}
-    #navbar ul li i {}
-
-    #nav-logos {}
-    #nav-logo-sjc {}
-    #nav-logo-acm {}
+    #navbar ul {
+        margin-left: 450px;
+    }
+    #navbar ul li {
+        margin-right: 100px;
+    }
+    #nav-logo-acm {
+        margin-left: 350px;
+    }
 }
 @media only screen and (min-width: 1500px) {
     /* Desktop screens 1500px - 1740px : */
-    #navbar {}
-    #navbar ul {}
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {}
-    #navbar ul li i {}
-
-    #nav-logos {}
-    #nav-logo-sjc {}
-    #nav-logo-acm {}
-}
-@media only screen and (min-width: 1740px) {
-    /* Desktop screens: */
-    #navbar {}
-    #navbar ul {}
-    #navbar ul a {}
-    #navbar ul a:hover {}
-    #navbar ul li#bars {}
-    #navbar ul li {}
-    #navbar ul li i {}
-
-    #nav-logos {}
-    #nav-logo-sjc {}
-    #nav-logo-acm {}
+    #navbar ul {
+        margin-left: 600px;
+    }
+    #navbar ul li {
+        margin-right: 100px;
+    }
+    #nav-logo-acm {
+        margin-left: 350px;
+    }
 }
