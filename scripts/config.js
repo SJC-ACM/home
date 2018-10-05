@@ -46,4 +46,6 @@ function setup() {
     // Change aboutDiv's paragraph element inner HTML to variable about_us'
     var aboutP = aboutDiv.firstElementChild;
     aboutP.innerHTML = about_us;
+
+    // TODO officers needs to be done still:
 }
