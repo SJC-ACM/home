@@ -171,6 +171,7 @@ div.officers-column a button:hover {
     height: 1000px;
     background: transparent;
     width: 100%;
+    margin-bottom: 50px;
 }
 #join-now div#join-now-container {
     padding-top: 400px;
@@ -199,14 +200,37 @@ div.officers-column a button:hover {
     text-decoration: none;
 }
 
-#footer {}
-#social-buttons {}
+#footer {
+    background-color: #EAB533;
+    border-top: 8px solid #DAA919;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#social-buttons {
+    padding: 10px;
+    padding-top: 20px;
+}
 #social-buttons a {}
-#social-buttons a span.button img {}
-#social-buttons a span.button img:hover {}
+#social-buttons a span.button img {
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+}
+#social-buttons a span.button img:hover {
+    opacity: .6;
+}
 #copyright {}
 #copyright a {
     text-decoration: none;
+    color: #113675;
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+#copyright a:hover {
+    color: white;
 }
 /**/
 @media only screen and (min-width: 1366px) {

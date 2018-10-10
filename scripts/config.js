@@ -46,10 +46,9 @@ var treasurerEmail = "";
 /**
  * Social Buttons
  */
-var githubPage = ""; // Shouldn't need to change this. If someone needs access to the git, let me know...
-var twitterPage = "";
-var facebookPage = "";
-var sjcSite = ""; // No change
+var githubPage = "https://github.com/SJC-ACM/home"; // Shouldn't need to change this. If someone needs access to the git, let me know...
+var twitterPage = "https://twitter.com/SJCACM1";
+var facebookPage = "https://www.facebook.com/groups/917415211658767/";
 
 
 
@@ -75,6 +74,7 @@ function setup() {
      * About Us
      */
     var aboutParagraph = document.getElementById("about-edit");
+    var aboutDiv = document.getElementById("about-us");
 
     /**
      * Officers
@@ -97,7 +97,9 @@ function setup() {
     /**
      * Social Buttons
      */
-
+    var github = document.getElementById("github");
+    var twitter = document.getElementById("twitter");
+    var facebook = document.getElementById("facebook");
 
 
         // Change the parallax image to the defined clubImage image URL
@@ -108,6 +110,7 @@ function setup() {
     quoteP.innerHTML = quote;
 
     // Change aboutDiv's paragraph element inner HTML to variable about_us'
+    aboutDiv.setAttribute("data-img-src", aboutPicture);
     aboutParagraph.innerHTML = about_us;
 
     // Change Officers info:
@@ -128,4 +131,9 @@ function setup() {
     vicePresident.style.backgroundImage = "url(" + vicePresidentPicture + ")";
     secretary.style.backgroundImage = "url(" + secretaryPicture + ")";
     treasurer.style.backgroundImage = "url(" + treasurerPicture + ")";
+
+    // Change Social Buttons' links
+    github.setAttribute("href", githubPage);
+    twitter.setAttribute("href", twitterPage);
+    facebook.setAttribute("href", facebookPage);
 }
