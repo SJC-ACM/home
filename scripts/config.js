@@ -39,7 +39,7 @@ var discordLink = "";
 function setup() {
     var clubDiv = document.getElementById("club-action");
     var quoteDiv = document.getElementById("quote");
-    var aboutDiv = document.getElementById("about-us");
+    var aboutParagraph = document.getElementById("about-edit");
     var officersDiv = document.getElementById("officers");
 
     // Change the parallax image to the defined clubImage image URL
@@ -50,8 +50,7 @@ function setup() {
     quoteP.innerHTML = quote;
 
     // Change aboutDiv's paragraph element inner HTML to variable about_us'
-    var aboutP = aboutDiv.firstElementChild;
-    aboutP.innerHTML = about_us;
+    aboutParagraph.innerHTML = about_us;
 
     // TODO officers needs to be done still:
 }
