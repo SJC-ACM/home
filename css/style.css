@@ -99,8 +99,13 @@
 #officers div#officers-container {
     margin-right: auto;
     margin-left: auto;
-    width: 1000px;
     padding-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+#officers div#officers-container div#officers-center {
+    /* We need to center this */
+    display: inline-block;
 }
 
 div.officers-column {
@@ -203,8 +208,8 @@ div.officers-column a button:hover {
 #copyright a {
     text-decoration: none;
 }
+/**/
 @media only screen and (min-width: 1366px) {
-    /* Desktop screens and iPad pro sideways: */
     #navbar ul {
         margin-left: 450px;
     }
@@ -214,9 +219,11 @@ div.officers-column a button:hover {
     #nav-logo-acm {
         margin-left: 350px;
     }
+    #officers div#officers-container {
+        width: 1000px;
+    }
 }
 @media only screen and (min-width: 1500px) {
-    /* Desktop screens 1500px - 1740px : */
     #navbar ul {
         margin-left: 600px;
     }
@@ -227,3 +234,4 @@ div.officers-column a button:hover {
         margin-left: 350px;
     }
 }
+/**/
