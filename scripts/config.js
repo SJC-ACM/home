@@ -31,6 +31,9 @@ var joinNowEmail = "acm.li@student.sjcny.edu";
 var discordLink = "";
 
 
+
+
+
 /**
  * ^^^ Edit the variables above to change the website ^^^
  *
