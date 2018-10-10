@@ -196,7 +196,9 @@ div.officers-column a button:hover {
 
 #footer {}
 #social-buttons {}
-#social-buttons img {}
+#social-buttons a {}
+#social-buttons a span.button img {}
+#social-buttons a span.button img:hover {}
 #copyright {}
 #copyright a {
     text-decoration: none;

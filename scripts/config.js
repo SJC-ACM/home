@@ -1,34 +1,55 @@
 /**
  * Created by user on 10/5/2018.
  */
+
+
+/**
+ * Home
+ * TODO Maybe add in a "Welcome" message above clubImage?
+ */
 var clubImage = "css/img/club-in-action.jpg";
 
+/**
+ * Quote
+ */
 var quote = "\"Here at the St. Joseph's ACM club we love to hang out, eat pizza, play video games, as well as get to know others within our field!\" <br />- Jared Scarito";
 
+/**
+ * About Us
+ */
+var aboutPicture = "css/img/dog-at-computer.png";
 var about_us =
 "The ACM Club is the Computer Science club at St. Joseph's College. We have a driven focus to expand our understanding of the computing disciples " +
 "while helping others learn along the way. Our club actively participates in the computing world by holding workshops, inviting guest speakers from " +
 "the field to talk about their careers, as well as holding video game tournaments! Our club meetings usually take place every Wednesday at common " +
 "hour. Feel free to stop by to casually chill with others in the field as well as play some PS4 \"Disc Jam\".";
 
-var advisorPicture = "";
-var advisorName = "";
-
-var presidentPicture = "css/img/president.png";
+/**
+ * Officers
+ */
+var presidentPicture = "css/img/no-profile-pic.png";
 var presidentName = "Kerri McMahon";
+var presidentEmail = "";
 
-var vicePresidentPicture = "css/img/vice-president.png";
+var vicePresidentPicture = "css/img/no-profile-pic.png";
 var vicePresidentName = "Kyle Waldron";
+var vicePresidentEmail = "";
 
-var secretaryPicture = "css/img/secretary.png";
+var secretaryPicture = "css/img/no-profile-pic.png";
 var secretaryName = "Josh Papello";
+var secretaryEmail = "";
 
-var treasurerPicture = "css/img/treasurer.png";
-var tresurerName = "Alana Caporale";
+var treasurerPicture = "css/img/no-profile-pic.png";
+var treasurerName = "Alana Caporale";
+var treasurerEmail = "";
 
-var joinNowEmail = "acm.li@student.sjcny.edu";
-
-var discordLink = "";
+/**
+ * Social Buttons
+ */
+var githubPage = ""; // Shouldn't need to change this. If someone needs access to the git, let me know...
+var twitterPage = "";
+var facebookPage = "";
+var sjcSite = ""; // No change
 
 
 
@@ -40,12 +61,46 @@ var discordLink = "";
  * Don't mess with what's down here (unless you know JavaScript of course):
  */
 function setup() {
+    /**
+     * Club in Action
+     */
     var clubDiv = document.getElementById("club-action");
-    var quoteDiv = document.getElementById("quote");
-    var aboutParagraph = document.getElementById("about-edit");
-    var officersDiv = document.getElementById("officers");
 
-    // Change the parallax image to the defined clubImage image URL
+    /**
+     * Quote
+     */
+    var quoteDiv = document.getElementById("quote");
+
+    /**
+     * About Us
+     */
+    var aboutParagraph = document.getElementById("about-edit");
+
+    /**
+     * Officers
+     */
+    var officersDiv = document.getElementById("officers");
+    var presidentNameVar = document.getElementById("president-name");
+    var presidentEmailVar = document.getElementById("president-email");
+    var vicePresidentNameVar = document.getElementById("vice-president-name");
+    var vicePresidentEmailVar = document.getElementById("vice-president-email");
+    var secretaryNameVar = document.getElementById("secretary-name");
+    var secretaryEmailVar = document.getElementById("secretary-email");
+    var treasurerNameVar = document.getElementById("treasurer-name");
+    var treasurerEmailVar = document.getElementById("treasurer-email");
+    // Officers Pictures
+    var president = document.getElementById("president");
+    var vicePresident = document.getElementById("vice-president");
+    var secretary = document.getElementById("secretary");
+    var treasurer = document.getElementById("treasurer");
+
+    /**
+     * Social Buttons
+     */
+
+
+
+        // Change the parallax image to the defined clubImage image URL
     clubDiv.setAttribute("data-image-src", clubImage);
 
     // Change the quoteDiv's paragraph element inner HTML to variable quote's
@@ -55,5 +110,22 @@ function setup() {
     // Change aboutDiv's paragraph element inner HTML to variable about_us'
     aboutParagraph.innerHTML = about_us;
 
-    // TODO officers needs to be done still:
+    // Change Officers info:
+    presidentNameVar.innerText = presidentName;
+    presidentEmailVar.setAttribute("href", "mailto:" + presidentEmail);
+
+    vicePresidentNameVar.innerText = vicePresidentName;
+    vicePresidentEmailVar.setAttribute("href", "mailto:" + vicePresidentEmail);
+
+    secretaryNameVar.innerText = secretaryName;
+    secretaryEmailVar.setAttribute("href", "mailto:" + secretaryEmail);
+
+    treasurerNameVar.innerText = treasurerName;
+    treasurerEmailVar.setAttribute("href", "mailto:" + treasurerEmail);
+
+    // Change Officers pictures:
+    president.style.backgroundImage = "url(" + presidentPicture + ")";
+    vicePresident.style.backgroundImage = "url(" + vicePresidentPicture + ")";
+    secretary.style.backgroundImage = "url(" + secretaryPicture + ")";
+    treasurer.style.backgroundImage = "url(" + treasurerPicture + ")";
 }
