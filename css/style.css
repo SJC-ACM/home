@@ -69,15 +69,90 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#about-us {}
-#about-us p {}
+#about-us {
+    height: 1400px;
+    background: transparent;
+    width: 100%;
+}
+#about-us div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 420px;
+}
+#about-us div p {
+    background-color: rgba(241, 241, 241, 0.51);
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+}
 
-#officers {}
+#officers {
+    background-color: #F1F1F1;
+    height: 700px;
+}
+#officers div#officers-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    padding-top: 150px;
+}
 
-div.officers-column {}
-div.officers-column div {}
-span.officers-label {}
-span.officers-name {}
+div.officers-column {
+    display: inline-block;
+    width: 220px;
+    height: 360px;
+    margin-right: 20px;
+    background-color: #E4E6E7;
+}
+div.skip {
+    margin-right: 0;
+}
+div.officers-column div {
+    background-image: url("img/no-profile-pic.png");
+    background-size: 200px 200px;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+span.officers-label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+span.officers-name {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+div.officers-column p {
+    margin-top: 20px;
+    text-align: center;
+}
+div.officers-column a {
+    text-decoration: none;
+}
+div.officers-column a button {
+    text-align: center;
+    font-size: 32px;
+    width: 100px;
+    background-color: #EAB533;
+    box-shadow: none;
+    border-bottom: 4px solid #cd9833;
+    border-right: 4px solid #cd9833;
+    border-radius: 5px;
+}
+div.officers-column a button:hover {
+    border-bottom: 4px solid #EAB533;
+    border-right: 4px solid #EAB533;
+    cursor: pointer;
+}
 
 #president {}
 #vice-president {}
@@ -85,9 +160,17 @@ span.officers-name {}
 #treasurer {}
 
 #join-now {}
-#join-now div {}
+#join-now div#join-now-container {}
 #join-now button {}
 #join-now button a {}
+
+#footer {}
+#social-buttons {}
+#social-buttons img {}
+#copyright {}
+#copyright a {
+    text-decoration: none;
+}
 @media only screen and (min-width: 1366px) {
     /* Desktop screens and iPad pro sideways: */
     #navbar ul {
