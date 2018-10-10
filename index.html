@@ -19,30 +19,66 @@
         <div id="nav-logo-acm"></div>
     </div>
     <ul id="navbar-items">
-        <li><a>Home</a></li>
-        <li><a>About Us</a></li>
-        <li><a>Officers</a></li>
-        <li><a>Join Now</a></li>
+        <li><a onclick="window.scrollTo({behavior: 'smooth', top: 0});">Home</a></li>
+        <li><a onclick="document.querySelector('#about-us').scrollIntoView({behavior: 'smooth'});">About Us</a></li>
+        <li><a onclick="document.querySelector('#officers').scrollIntoView({behavior: 'smooth'});">Officers</a></li>
+        <li><a onclick="document.querySelector('#join-now').scrollIntoView({behavior: 'smooth'});">Join Now</a></li>
     </ul>
 </nav>
 <!-- End Navbar -->
 
 <!-- Body -->
 
-<!-- Parallax 1 -->
+<!-- [IMAGE] Club-In-Action Parallax -->
 <div id="club-action" data-parallax="scroll" data-image-src="css/img/club-in-action.jpg"></div>
-<!-- Parallax 2 -->
+<!-- Quote Parallax -->
 <div id="quote" data-parallax="scroll">
     <p>"Here at the St. Joseph's ACM club we love to hang out, eat pizza, play video games, as well as get to know others within our field!" <br />- Jared Scarito</p>
 </div>
-<!-- Parallax 3 -->
+<!-- About-Us Parallax -->
 <div id="about-us" data-parallax="scroll">
-    <p></p>
+    <p>The ACM Club is the Computer Science club at St. Joseph's College. We have a driven focus to expand our understanding of the computing disciples
+    while helping others learn along the way. Our club actively participates in the computing world by holding workshops, inviting guest speakers from
+    the field to talk about their careers, as well as holding video game tournaments! Our club meetings usually take place every Wednesday at common
+    hour. Feel free to stop by to casually chill with others in the field as well as play some PS4 "Disc Jam".
+    </p>
 </div>
-<!-- Parallax 4 -->
+<!-- Officers Parallax -->
 <div id="officers" data-parallax="scroll">
-    Just cause I want that octoberfest shirt for hacktoberfest
+    <!-- President -->
+    <div class="officers-column">
+        <div id="president"></div>
+        <span class="officers-label">President</span>
+        <span class="officers-name">Kerri McMahon</span>
+    </div>
+    <!-- Vice President -->
+    <div class="officers-column">
+        <div id="vice-president"></div>
+        <span class="officers-label">Vice President</span>
+        <span class="officers-name">Kyle Waldron</span>
+    </div>
+    <!-- Secretary -->
+    <div class="officers-column">
+        <div id="secretary"></div>
+        <span class="officers-label">Secretary</span>
+        <span class="officers-name">Josh Papello</span>
+    </div>
+    <!-- Treasurer -->
+    <div class="officers-column">
+        <div id="treasurer"></div>
+        <span class="officers-label">Treasurer</span>
+        <span class="officers-name">Alana Caporale</span>
+    </div>
 </div>
+
+<!-- Join-Now Parallax -->
+<div id="join-now" data-parallax="scroll">
+    <div>
+        <button><a href="mailto:acm.li@student.sjcny.edu">Join the Club</a></button>
+        <button><a href="https://discord.gg/q5Q9D5S">Join the Discord</a></button>
+    </div>
+</div>
+
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
