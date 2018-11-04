@@ -29,19 +29,19 @@ var about_us =
  */
 var presidentPicture = "css/img/no-profile-pic.png";
 var presidentName = "Kerri McMahon";
-var presidentEmail = "";
+var presidentEmail = "kmcmahon4@student.sjcny.edu";
 
 var vicePresidentPicture = "css/img/no-profile-pic.png";
 var vicePresidentName = "Kyle Waldron";
-var vicePresidentEmail = "";
+var vicePresidentEmail = "kwaldron2@student.sjcny.edu";
 
 var secretaryPicture = "css/img/no-profile-pic.png";
 var secretaryName = "Josh Papello";
-var secretaryEmail = "";
+var secretaryEmail = "jpapello@student.sjcny.edu";
 
 var treasurerPicture = "css/img/no-profile-pic.png";
 var treasurerName = "Alana Caporale";
-var treasurerEmail = "";
+var treasurerEmail = "acaporale@student.sjcny.edu";
 
 /**
  * Social Buttons
