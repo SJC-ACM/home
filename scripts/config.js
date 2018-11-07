@@ -27,7 +27,7 @@ var about_us =
 /**
  * Officers
  */
-var presidentPicture = "css/img/no-profile-pic.png";
+var presidentPicture = "css/img/president.png";
 var presidentName = "Kerri McMahon";
 var presidentEmail = "kmcmahon4@student.sjcny.edu";
 
