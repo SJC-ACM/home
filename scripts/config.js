@@ -27,7 +27,7 @@ var about_us =
 /**
  * Officers
  */
-var presidentPicture = "css/img/president.png";
+var presidentPicture = "css/img/president.PNG";
 var presidentName = "Julia Mercadante";
 var presidentEmail = "jmercadante@student.sjcny.edu";
 
@@ -35,7 +35,7 @@ var vicePresidentPicture = "css/img/vice_president.jpg";
 var vicePresidentName = "Jared Scarito";
 var vicePresidentEmail = "jscarito@student.sjcny.edu";
 
-var secretaryPicture = "css/img/secretary.png";
+var secretaryPicture = "css/img/secretary.PNG";
 var secretaryName = "Kyle Yodice";
 var secretaryEmail = "kyodice@student.sjcny.edu";
 
