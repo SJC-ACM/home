@@ -28,20 +28,20 @@ var about_us =
  * Officers
  */
 var presidentPicture = "css/img/president.png";
-var presidentName = "Kerri McMahon";
-var presidentEmail = "kmcmahon4@student.sjcny.edu";
+var presidentName = "Julia Mercadante";
+var presidentEmail = "jmercadante@student.sjcny.edu";
 
-var vicePresidentPicture = "css/img/no-profile-pic.png";
-var vicePresidentName = "Kyle Waldron";
-var vicePresidentEmail = "kwaldron2@student.sjcny.edu";
+var vicePresidentPicture = "css/img/vice_president.jpg";
+var vicePresidentName = "Jared Scarito";
+var vicePresidentEmail = "jscarito@student.sjcny.edu";
 
-var secretaryPicture = "css/img/no-profile-pic.png";
-var secretaryName = "Josh Papello";
-var secretaryEmail = "jpapello@student.sjcny.edu";
+var secretaryPicture = "css/img/secretary.png";
+var secretaryName = "Kyle Yodice";
+var secretaryEmail = "kyodice@student.sjcny.edu";
 
 var treasurerPicture = "css/img/no-profile-pic.png";
-var treasurerName = "Alana Caporale";
-var treasurerEmail = "acaporale@student.sjcny.edu";
+var treasurerName = "N/A";
+var treasurerEmail = "N/A";
 
 /**
  * Social Buttons
